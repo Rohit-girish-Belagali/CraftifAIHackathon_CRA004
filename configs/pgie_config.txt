@@ -1,0 +1,14 @@
+# Primary detector. Build the engine with PipeGen's Model/Compiler stages (FP16 or INT8) and point model-engine-file at it.
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-engine-file=models/person_detector_fp16.engine
+labelfile-path=configs/labels.txt
+batch-size=1
+network-mode=2
+num-detected-classes=1
+interval=0
+gie-unique-id=1
+cluster-mode=2
+[class-attrs-all]
+pre-cluster-threshold=0.4

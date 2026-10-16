@@ -1,0 +1,3 @@
+# Minimal placeholder: copy DeepStream's config_tracker_NvDCF_perf.yml here for real use.
+BaseConfig:
+  minDetectorConfidence: 0.4
